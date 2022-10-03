@@ -1,5 +1,11 @@
 <resources>
     <string name="app_name">Civics Test</string>
-    <string name="question">nuthin</string>
-    <string name="hint">hint</string>
+    <string name="question"></string>
+    <string name="hint"></string>
+    <string name="startButtonText">Begin!</string>
+    <string name="resetCorrectText">Reset correct questions</string>
+    <string name="welcomeText">Welcome!</string>
+    <string name="questionBoxText">nuthin yet</string>
+    <string name="submitButtonText">Submit</string>
+    <string name="nextButtonText">Next</string>
 </resources>

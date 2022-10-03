@@ -11,9 +11,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CivicsTest"
+        android:windowSoftInputMode="adjustResize"
+        android:layout_alignParentBottom="true"
         tools:targetApi="31">
+        <activity android:name=".QuizActivity"
+            android:screenOrientation="portrait">
+        </activity>
         <activity
             android:name=".MainActivity"
+            android:screenOrientation="portrait"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
