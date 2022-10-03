@@ -11,3 +11,12 @@ Stretch goals:
 
 - [ ] Automatically pull the USCIS PDF on startup and import it
 - [ ] Release a generic quizzing framework
+
+## Resources used
+
+- [Kotlin Android Quiz App in Android Studio](https://techpassmaster.com/kotlin-android-quiz-app/)
+- [Android: Build your first app](https://developer.android.com/training/basics/firstapp)
+
+## License
+
+Attribution-ShareAlike 4.0 International [![](https://creativecommons.org/licenses/by-sa/4.0/)](https://licensebuttons.net/l/by-sa/4.0/88x31.png)
