@@ -1,21 +1,23 @@
 package com.example.civicstest
 
 import android.content.Intent
-import android.graphics.Color
-import android.graphics.Typeface
+import android.content.SharedPreferences
 import android.os.Bundle
+import android.preference.PreferenceManager
 import android.view.View
-import android.widget.TextView
 import android.widget.Toast
-import androidx.core.content.ContextCompat
 import androidx.appcompat.app.AppCompatActivity
 import com.example.civicstest.databinding.ActivityQuizBinding
+import java.lang.reflect.Type
+import com.google.gson.Gson
+import com.google.gson.reflect.TypeToken
+
 
 private lateinit var binding: ActivityQuizBinding
+lateinit var questionList: ArrayList<Question>
 
 class QuizActivity : AppCompatActivity(), View.OnClickListener {
     private var position: Int = 0
-    private var questionList: ArrayList<Question>? = null
     private var selectedAnswer: String = ""
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -26,7 +28,16 @@ class QuizActivity : AppCompatActivity(), View.OnClickListener {
         val view = binding.root
         setContentView(view)
 
-        questionList = Questions.getQuestions()
+        val sharedPreferences = getSharedPreferences("prefs", MODE_PRIVATE)
+        val gson = Gson()
+        val json = sharedPreferences.getString("questions", null)
+        if (json != null) {
+            val type: Type = object : TypeToken<ArrayList<Question?>?>() {}.type
+            questionList = gson.fromJson<Any>(json, type) as ArrayList<Question>
+        } else {
+            questionList = Questions.getQuestions()
+        }
+
         newQuestion()
 
         binding.submitButton.setOnClickListener(this)
@@ -39,13 +50,23 @@ class QuizActivity : AppCompatActivity(), View.OnClickListener {
             questionList!![position].answers
     }
 
+    private fun storeChanges() {
+        val sharedPreferences = getSharedPreferences("prefs", MODE_PRIVATE)
+        val gson = Gson()
+        val editor = sharedPreferences.edit()
+        val json: String = gson.toJson(questionList)
+        editor.putString("questions", json)
+        editor.apply()
+        Toast.makeText(this, "Saved changes", Toast.LENGTH_SHORT).show()
+    }
+
     private fun newQuestion() {
         position++
 
-        val question = questionList!![position]
-
         while (position <= questionList!!.size) {
-            if (!questionList!![position].correct) {
+            val question = questionList!![position]
+
+            if (!question.correct) {
                 binding.questionBox.text = question.question
                 binding.answerBox.setText("")
 
@@ -70,6 +91,7 @@ class QuizActivity : AppCompatActivity(), View.OnClickListener {
                     binding.answerBox.text.toString(),
                     true
                 )
+                storeChanges()
                 showAnswer()
             }
 
