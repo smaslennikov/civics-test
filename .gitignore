@@ -13,3 +13,8 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# bundles
+
+app/debug
+app/release
