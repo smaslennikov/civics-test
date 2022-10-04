@@ -2,10 +2,10 @@
 
 Simple app for running through the 2022 USCIS Civics Test. Features include:
 
-- [ ] Quiz questions with written answer prompts rather than multiple choice (real interview isn't multiple choice, but all apps seem to be)
-- [ ] Go through the entire pool of questions
-- [ ] Only ask missed questions after the first iteration
-- [ ] Option to reset pool of known questions
+- [x] Quiz questions with written answer prompts rather than multiple choice (real interview isn't multiple choice, but all apps seem to be)
+- [x] Go through the entire pool of questions
+- [x] Only ask missed questions after the first iteration
+- [x] Option to reset pool of known questions
 
 Stretch goals:
 
