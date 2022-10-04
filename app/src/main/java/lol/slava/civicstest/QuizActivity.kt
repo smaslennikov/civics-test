@@ -1,24 +1,20 @@
-package com.example.civicstest
+package lol.slava.civicstest
 
 import android.content.Intent
-import android.content.SharedPreferences
 import android.os.Bundle
-import android.preference.PreferenceManager
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.example.civicstest.databinding.ActivityQuizBinding
+import lol.slava.civicstest.databinding.ActivityQuizBinding
 import java.lang.reflect.Type
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 
-
-private lateinit var binding: ActivityQuizBinding
 lateinit var questionList: ArrayList<Question>
 
 class QuizActivity : AppCompatActivity(), View.OnClickListener {
     private var position: Int = 0
-    private var selectedAnswer: String = ""
+    private lateinit var binding: ActivityQuizBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -33,6 +29,7 @@ class QuizActivity : AppCompatActivity(), View.OnClickListener {
         val json = sharedPreferences.getString("questions", null)
         if (json != null) {
             val type: Type = object : TypeToken<ArrayList<Question?>?>() {}.type
+            @Suppress("UNCHECKED_CAST") // TODO maybe fix this later
             questionList = gson.fromJson<Any>(json, type) as ArrayList<Question>
         } else {
             questionList = Questions.getQuestions()
@@ -46,8 +43,11 @@ class QuizActivity : AppCompatActivity(), View.OnClickListener {
 
     private fun showAnswer() {
         binding.questionBox.text =
-            questionList!![position].correct.toString() + "\n" +
-            questionList!![position].answers
+            buildString {
+                append(questionList[position].correct.toString())
+                append(":\n")
+                append(questionList[position].answers)
+            }
     }
 
     private fun storeChanges() {
@@ -63,8 +63,8 @@ class QuizActivity : AppCompatActivity(), View.OnClickListener {
     private fun newQuestion() {
         position++
 
-        while (position <= questionList!!.size) {
-            val question = questionList!![position]
+        while (position <= questionList.size) {
+            val question = questionList[position]
 
             if (!question.correct) {
                 binding.questionBox.text = question.question
@@ -87,7 +87,7 @@ class QuizActivity : AppCompatActivity(), View.OnClickListener {
     override fun onClick(v: View?) {
         when (v?.id) {
             R.id.submitButton -> {
-                questionList!![position].correct = questionList!![position].answers.contains(
+                questionList[position].correct = questionList[position].answers.contains(
                     binding.answerBox.text.toString(),
                     true
                 )

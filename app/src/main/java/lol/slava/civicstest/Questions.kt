@@ -1,4 +1,4 @@
-package com.example.civicstest
+package lol.slava.civicstest
 
 object Questions {
     fun getQuestions(): ArrayList<Question> {

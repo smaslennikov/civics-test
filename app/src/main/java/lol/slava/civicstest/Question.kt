@@ -1,4 +1,4 @@
-package com.example.civicstest
+package lol.slava.civicstest
 
 data class Question(
     val question: String,

@@ -1,12 +1,10 @@
-package com.example.civicstest
+package lol.slava.civicstest
 
-import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
-import com.example.civicstest.databinding.ActivityMainBinding
-import com.google.gson.Gson
+import lol.slava.civicstest.databinding.ActivityMainBinding
 
 private lateinit var binding: ActivityMainBinding
 
@@ -27,7 +25,6 @@ class MainActivity : AppCompatActivity() {
 
         binding.resetCorrect.setOnClickListener {
             val sharedPreferences = getSharedPreferences("prefs", MODE_PRIVATE)
-            val gson = Gson()
             val editor = sharedPreferences.edit()
             editor.putString("questions", null)
             editor.apply()

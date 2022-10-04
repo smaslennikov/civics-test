@@ -1,4 +1,4 @@
-package com.example.civicstest
+package lol.slava.civicstest
 
 import org.junit.Test
 
