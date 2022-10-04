@@ -1,11 +1,11 @@
 <resources>
-    <string name="app_name">Civics Test</string>
+    <string name="app_name">Civics Test 2022</string>
     <string name="question"></string>
     <string name="hint"></string>
     <string name="startButtonText">Begin!</string>
     <string name="resetCorrectText">Reset correct questions</string>
     <string name="welcomeText">Welcome!</string>
-    <string name="questionBoxText">nuthin yet</string>
+    <string name="questionBoxText"></string>
     <string name="submitButtonText">Submit</string>
     <string name="nextButtonText">Next</string>
 </resources>
