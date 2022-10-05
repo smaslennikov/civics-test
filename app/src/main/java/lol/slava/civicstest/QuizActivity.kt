@@ -45,7 +45,7 @@ class QuizActivity : AppCompatActivity(), View.OnClickListener {
         binding.questionBox.text =
             buildString {
                 append(questionList[position].correct.toString())
-                append(":\n")
+                append(":")
                 append(questionList[position].answers)
             }
     }
