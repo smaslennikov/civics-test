@@ -10,6 +10,7 @@
         android:id="@+id/questionBox"
         android:layout_width="match_parent"
         android:layout_height="149dp"
+        android:scrollbars="vertical"
         android:text="@string/questionBoxText"
         android:textAlignment="center"
         app:layout_constraintBottom_toTopOf="@+id/textInputLayout"
