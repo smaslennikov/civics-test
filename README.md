@@ -14,11 +14,13 @@ The app is functional enough for me to study for my interview in three days. Tha
     - [ ] Text input field has an extra line above
     - [ ] Pressing enter in the text input field should submit the answer
     - [ ] Question field should be using the screen space better (reduce button sizes)
+    - [ ] Question field should be scrollable
 - [ ] Some of the questions don't have any answers set because they're state-specific
+- [ ] App crashes after the last question
 
 Stretch goals:
 
-- [ ] Display scores, store them between state resets and display them somewhere
+- [ ] Display scores, store them between state resets
 - [ ] Automatically pull the USCIS PDF on startup and import it
 - [ ] Use localized answers for state-specific questions
 - [ ] Release a generic quizzing framework
