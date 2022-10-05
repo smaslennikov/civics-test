@@ -7,8 +7,7 @@ object Questions {
         val question1 = Question(
             "What is the supreme law of the land",
             """
-the Constitution
-            """,
+the Constitution""",
             false
         )
 
@@ -17,16 +16,14 @@ the Constitution
             """
 sets up the government
 defines the government
-protects basic rights of Americans
-			""",
+protects basic rights of Americans""",
             false
         )
 
         val question13 = Question(
             "The idea of self-government is in the first three words of the Constitution. What are these words",
             """
-We the People
-			""",
+We the People""",
             false
         )
 
@@ -34,16 +31,14 @@ We the People
             "What is an amendment",
             """
 a change (to the Constitution)
-an addition (to the Constitution)
-			""",
+an addition (to the Constitution)""",
             false
         )
 
         val question24 = Question(
             "What do we call the first ten amendments to the Constitution",
             """
-the Bill of Rights
-			""",
+the Bill of Rights""",
             false
         )
 
@@ -54,16 +49,14 @@ speech
 religion
 assembly
 press
-petition the government
-			""",
+petition the government""",
             false
         )
 
         val question38 = Question(
             "How many amendments does the Constitution have",
             """
-twenty-seven (27)
-			""",
+twenty-seven (27)""",
             false
         )
 
@@ -72,8 +65,7 @@ twenty-seven (27)
             """
 announced our independence (from Great Britain)
 declared our independence (from Great Britain)
-said that the United States is free (from Great Britain)
-			""",
+said that the United States is free (from Great Britain)""",
             false
         )
 
@@ -82,16 +74,14 @@ said that the United States is free (from Great Britain)
             """
 life
 liberty
-pursuit of happiness
-			""",
+pursuit of happiness""",
             false
         )
 
         val question57 = Question(
             "What is freedom of religion",
             """
-You can practice any religion, or not practice a religion.
-			""",
+You can practice any religion, or not practice a religion.""",
             false
         )
 
@@ -99,8 +89,7 @@ You can practice any religion, or not practice a religion.
             "What is the economic system in the United States?",
             """
 capitalist economy
-market economy
-			""",
+market economy""",
             false
         )
 
@@ -110,8 +99,7 @@ market economy
 Everyone must follow the law.
 Leaders must obey the law.
 Government must obey the law.
-No one is above the law.
-			""",
+No one is above the law.""",
             false
         )
 
@@ -123,8 +111,7 @@ legislative
 President
 executive
 the courts
-judicial
-			""",
+judicial""",
             false
         )
 
@@ -132,16 +119,14 @@ judicial
             "What stops one branch of government from becoming too powerful",
             """
 checks and balances
-separation of powers
-			""",
+separation of powers""",
             false
         )
 
         val question92 = Question(
             "Who is in charge of the executive branch",
             """
-the President
-			""",
+the President""",
             false
         )
 
@@ -150,32 +135,28 @@ the President
             """
 Congress
 Senate and House (of Representatives)
-(U.S. or national) legislature
-			""",
+(U.S. or national) legislature""",
             false
         )
 
         val question104 = Question(
             "What are the two parts of the U.S. Congress?",
             """
-the Senate and House (of Representatives)
-			""",
+the Senate and House (of Representatives)""",
             false
         )
 
         val question109 = Question(
             "How many U.S. Senators are there",
             """
-one hundred (100)
-			""",
+one hundred (100)""",
             false
         )
 
         val question114 = Question(
             "We elect a U.S. Senator for how many years",
             """
-six (6)
-			""",
+six (6)""",
             false
         )
 
@@ -184,24 +165,21 @@ six (6)
             """
 Answers will vary. [District of Columbia residents and residents of U.S. territories should answer that D.C.
 (or the territory where the applicant lives)
- has no U.S. Senators.]
-			""",
+ has no U.S. Senators.]""",
             false
         )
 
         val question125 = Question(
             "The House of Representatives has how many voting members",
             """
-four hundred thirty-five (435)
-			""",
+four hundred thirty-five (435)""",
             false
         )
 
         val question130 = Question(
             "We elect a U.S. Representative for how many years",
             """
-two (2)
-			""",
+two (2)""",
             false
         )
 
@@ -211,16 +189,14 @@ two (2)
 Answers will vary. [Residents of territories with nonvoting Delegates or Resident Commissioners may
 provide the name of that Delegate or Commissioner. Also acceptable is any statement that the territory has
 no (voting)
- Representatives in Congress.]
-			""",
+ Representatives in Congress.]""",
             false
         )
 
         val question142 = Question(
             "Who does a U.S. Senator represent",
             """
-all people of the state
-			""",
+all people of the state""",
             false
         )
 
@@ -229,88 +205,77 @@ all people of the state
             """
 (because of) the state’s population
 (because) they have more people
-(because) some states have more people
-			""",
+(because) some states have more people""",
             false
         )
 
         val question154 = Question(
             "We elect a President for how many years",
             """
-four (4)
-			""",
+four (4)""",
             false
         )
 
         val question159 = Question(
             "In what month do we vote for President?",
             """
-November
-			""",
+November""",
             false
         )
 
         val question164 = Question(
             "What is the name of the President of the United States now?",
             """
-Visit uscis.gov/citizenship/testupdates for the name of the President of the United States.
-			""",
+Biden""",
             false
         )
 
         val question169 = Question(
             "What is the name of the Vice President of the United States now",
             """
-Visit uscis.gov/citizenship/testupdates for the name of the Vice President of the United States.
-			""",
+Harris""",
             false
         )
 
         val question174 = Question(
             "If the President can no longer serve, who becomes President",
             """
-the Vice President
-			""",
+the Vice President""",
             false
         )
 
         val question179 = Question(
             "If both the President and the Vice President can no longer serve, who becomes President",
             """
-the Speaker of the House
-			""",
+the Speaker of the House""",
             false
         )
 
         val question184 = Question(
             "Who is the Commander in Chief of the military",
             """
-the President
-			""",
+the President""",
             false
         )
 
         val question189 = Question(
             "Who signs bills to become laws",
             """
-the President
-			""",
+the President""",
             false
         )
 
         val question194 = Question(
             "Who vetoes bills",
             """
-the President
-			""",
+the President""",
             false
         )
 
         val question199 = Question(
             "What does the President’s Cabinet do",
             """
-advises the President
-			""",
+advises the President""",
             false
         )
 
@@ -332,8 +297,7 @@ Secretary of Transportation
 Secretary of the Treasury
 Secretary of Veterans Affairs
 Attorney General
-Vice President
-			""",
+Vice President""",
             false
         )
 
@@ -343,32 +307,28 @@ Vice President
 reviews laws
 explains laws
 resolves disputes (disagreements)
-decides if a law goes against the Constitution
-			""",
+decides if a law goes against the Constitution""",
             false
         )
 
         val question237 = Question(
             "What is the highest court in the United States",
             """
-the Supreme Court
-			""",
+the Supreme Court""",
             false
         )
 
         val question242 = Question(
             "How many justices are on the Supreme Court",
             """
-Visit uscis.gov/citizenship/testupdates for the number of justices on the Supreme Court.
-			""",
+9 (nine)""",
             false
         )
 
         val question247 = Question(
             "Who is the Chief Justice of the United States now",
             """
-Visit uscis.gov/citizenship/testupdates for the name of the Chief Justice of the United States.
-			""",
+Roberts""",
             false
         )
 
@@ -378,8 +338,7 @@ Visit uscis.gov/citizenship/testupdates for the name of the Chief Justice of the
 to print money
 to declare war
 to create an army
-to make treaties
-			""",
+to make treaties""",
             false
         )
 
@@ -390,16 +349,14 @@ provide schooling and education
 provide protection (police)
 provide safety (fire departments)
 give a driver’s license
-approve zoning and land use
-			""",
+approve zoning and land use""",
             false
         )
 
         val question275 = Question(
             "Who is the Governor of your state now",
             """
-Answers will vary. [District of Columbia residents should answer that D.C. does not have a Governor.]
-			""",
+Answers will vary. [District of Columbia residents should answer that D.C. does not have a Governor.]""",
             false
         )
 
@@ -407,33 +364,28 @@ Answers will vary. [District of Columbia residents should answer that D.C. does 
             "What is the capital of your state?",
             """
 Answers will vary. [District of Columbia residents should answer that D.C. is not a state and does not have a
-capital. Residents of U.S. territories should name the capital of the territory.]
-			""",
+capital. Residents of U.S. territories should name the capital of the territory.]""",
             false
         )
 
         val question286 = Question(
             "What are the two major political parties in the United States?",
             """
-Democratic and Republican
-			""",
+Democratic and Republican""",
             false
         )
 
         val question291 = Question(
             "What is the political party of the President now",
             """
-Visit uscis.gov/citizenship/testupdates for the political party of the President.
-			""",
+Democratic""",
             false
         )
 
         val question296 = Question(
             "What is the name of the Speaker of the House of Representatives now",
             """
-Visit uscis.gov/citizenship/testupdates for the name of the Speaker of the House of Representatives.
-C: Rights and Responsibilities
-			""",
+Pelosi""",
             false
         )
 
@@ -443,8 +395,7 @@ C: Rights and Responsibilities
 Citizens eighteen (18) and older (can vote)
 You don’t have to pay (a poll tax) to vote.
 Any citizen can vote. (Women and men can vote.)
-A male citizen of any race (can vote)
-			""",
+A male citizen of any race (can vote)""",
             false
         )
 
@@ -452,8 +403,7 @@ A male citizen of any race (can vote)
             "What is one responsibility that is only for United States citizens?",
             """
 serve on a jury
-vote in a federal election
-			""",
+vote in a federal election""",
             false
         )
 
@@ -461,8 +411,7 @@ vote in a federal election
             "Name one right only for United States citizens",
             """
 vote in a federal election
-run for federal office
-			""",
+run for federal office""",
             false
         )
 
@@ -474,8 +423,7 @@ freedom of speech
 freedom of assembly
 freedom to petition the government
 freedom of religion
-the right to bear arms
-			""",
+the right to bear arms""",
             false
         )
 
@@ -483,8 +431,7 @@ the right to bear arms
             "What do we show loyalty to when we say the Pledge of Allegiance",
             """
 the United States
-the flag
-			""",
+the flag""",
             false
         )
 
@@ -496,16 +443,14 @@ defend the Constitution and laws of the United States
 obey the laws of the United States
 serve in the U.S. military (if needed)
 serve (do important work for) the nation (if needed)
-be loyal to the United States
-			""",
+be loyal to the United States""",
             false
         )
 
         val question353 = Question(
             "How old do citizens have to be to vote for President?",
             """
-eighteen (18) and older
-			""",
+eighteen (18) and older""",
             false
         )
 
@@ -521,16 +466,14 @@ give an elected official your opinion on an issue
 call Senators and Representatives
 publicly support or oppose an issue or policy
 run for office
-write to a newspaper
-			""",
+write to a newspaper""",
             false
         )
 
         val question372 = Question(
             "When is the last day you can send in federal income tax forms?",
             """
-April 15
-			""",
+April 15""",
             false
         )
 
@@ -538,8 +481,7 @@ April 15
             "When must all men register for the Selective Service",
             """
 at age eighteen (18)
-between eighteen (18) and twenty-six (26)
-			""",
+between eighteen (18) and twenty-six (26)""",
             false
         )
 
@@ -551,8 +493,7 @@ political liberty
 religious freedom
 economic opportunity
 practice their religion
-escape persecution
-			""",
+escape persecution""",
             false
         )
 
@@ -560,8 +501,7 @@ escape persecution
             "Who lived in America before the Europeans arrived",
             """
 American Indians
-Native Americans
-			""",
+Native Americans""",
             false
         )
 
@@ -569,8 +509,7 @@ Native Americans
             "What group of people was taken to America and sold as slaves",
             """
 Africans
-people from Africa
-			""",
+people from Africa""",
             false
         )
 
@@ -579,24 +518,21 @@ people from Africa
             """
 because of high taxes (taxation without representation)
 because the British army stayed in their houses (boarding, quartering)
-because they didn’t have self-government
-			""",
+because they didn’t have self-government""",
             false
         )
 
         val question419 = Question(
             "Who wrote the Declaration of Independence",
             """
-(Thomas) Jefferson
-			""",
+(Thomas) Jefferson""",
             false
         )
 
         val question424 = Question(
             "When was the Declaration of Independence adopted",
             """
-July 4, 1776
-			""",
+July 4, 1776""",
             false
         )
 
@@ -615,8 +551,7 @@ Maryland
 Virginia
 North Carolina
 South Carolina
-Georgia
-			""",
+Georgia""",
             false
         )
 
@@ -624,16 +559,14 @@ Georgia
             "What happened at the Constitutional Convention",
             """
 The Constitution was written.
-The Founding Fathers wrote the Constitution.
-			""",
+The Founding Fathers wrote the Constitution.""",
             false
         )
 
         val question452 = Question(
             "When was the Constitution written",
             """
-1787
-			""",
+1787""",
             false
         )
 
@@ -642,8 +575,7 @@ The Founding Fathers wrote the Constitution.
             """
 (James) Madison
 (Alexander) Hamilton
-(John) Jay Publius
-			""",
+(John) Jay Publius""",
             false
         )
 
@@ -654,24 +586,21 @@ U.S. diplomat
 oldest member of the Constitutional Convention
 first Postmaster General of the United States
 writer of “Poor Richard’s Almanac”
-started the first free libraries
-			""",
+started the first free libraries""",
             false
         )
 
         val question474 = Question(
             "Who is the “Father of Our Country”",
             """
-(George) Washington
-			""",
+(George) Washington""",
             false
         )
 
         val question479 = Question(
             "Who was the first President?",
             """
-(George) Washington
-			""",
+(George) Washington""",
             false
         )
 
@@ -679,8 +608,7 @@ started the first free libraries
             "What territory did the United States buy from France in 1803",
             """
 the Louisiana Territory
-Louisiana
-			""",
+Louisiana""",
             false
         )
 
@@ -690,8 +618,7 @@ Louisiana
 War of 1812
 Mexican-American War
 Civil War
-Spanish-American War
-			""",
+Spanish-American War""",
             false
         )
 
@@ -699,8 +626,7 @@ Spanish-American War
             "Name the U.S. war between the North and the South",
             """
 the Civil War
-the War between the States
-			""",
+the War between the States""",
             false
         )
 
@@ -709,8 +635,7 @@ the War between the States
             """
 slavery
 economic reasons
-states’ rights
-			""",
+states’ rights""",
             false
         )
 
@@ -719,8 +644,7 @@ states’ rights
             """
 freed the slaves (Emancipation Proclamation)
 saved (or preserved) the Union
-led the United States during the Civil War
-			""",
+led the United States during the Civil War""",
             false
         )
 
@@ -730,8 +654,7 @@ led the United States during the Civil War
 freed the slaves
 freed slaves in the Confederacy
 freed slaves in the Confederate states
-freed slaves in most Southern states
-			""",
+freed slaves in most Southern states""",
             false
         )
 
@@ -740,8 +663,7 @@ freed slaves in most Southern states
             """
 fought for women’s rights
 fought for civil rights
-C: Recent American History and Other Important Historical Information
-			""",
+C: Recent American History and Other Important Historical Information""",
             false
         )
 
@@ -752,16 +674,14 @@ World War I
 World War II
 Korean War
 Vietnam War
-(Persian) Gulf War
-			""",
+(Persian) Gulf War""",
             false
         )
 
         val question548 = Question(
             "Who was President during World War I",
             """
-(Woodrow) Wilson
-			""",
+(Woodrow) Wilson""",
             false
         )
 
@@ -769,40 +689,35 @@ Vietnam War
             "Who was President during the Great Depression and World War II",
             """
 (Franklin)
- Roosevelt
-			""",
+ Roosevelt""",
             false
         )
 
         val question563 = Question(
             "Who did the United States fight in World War II",
             """
-Japan, Germany, and Italy
-			""",
+Japan, Germany, and Italy""",
             false
         )
 
         val question568 = Question(
             "Before he was President, Eisenhower was a general. What war was he in",
             """
-World War II
-			""",
+World War II""",
             false
         )
 
         val question573 = Question(
             "During the Cold War, what was the main concern of the United States",
             """
-Communism
-			""",
+Communism""",
             false
         )
 
         val question578 = Question(
             "What movement tried to end racial discrimination",
             """
-civil rights (movement)
-			""",
+civil rights (movement)""",
             false
         )
 
@@ -810,16 +725,14 @@ civil rights (movement)
             "What did Martin Luther King, Jr. do?",
             """
 fought for civil rights
-worked for equality for all Americans
-			""",
+worked for equality for all Americans""",
             false
         )
 
         val question589 = Question(
             "What major event happened on September 11, 2001, in the United States",
             """
-Terrorists attacked the United States.
-			""",
+Terrorists attacked the United States.""",
             false
         )
 
@@ -847,8 +760,7 @@ Lakota
 Crow
 Teton
 Hopi
-Inuit
-			""",
+Inuit""",
             false
         )
 
@@ -856,24 +768,21 @@ Inuit
             "Name one of the two longest rivers in the United States",
             """
 Missouri (River)
-Mississippi (River)
-			""",
+Mississippi (River)""",
             false
         )
 
         val question634 = Question(
             "What ocean is on the West Coast of the United States",
             """
-Pacific (Ocean)
-			""",
+Pacific (Ocean)""",
             false
         )
 
         val question639 = Question(
             "What ocean is on the East Coast of the United States",
             """
-Atlantic (Ocean)
-			""",
+Atlantic (Ocean)""",
             false
         )
 
@@ -884,8 +793,7 @@ Puerto Rico
 U.S. Virgin Islands
 American Samoa
 Northern Mariana Islands
-Guam
-			""",
+Guam""",
             false
         )
 
@@ -904,8 +812,7 @@ North Dakota
 Montana
 Idaho
 Washington
-Alaska
-			""",
+Alaska""",
             false
         )
 
@@ -915,16 +822,14 @@ Alaska
 California
 Arizona
 New Mexico
-Texas
-			""",
+Texas""",
             false
         )
 
         val question678 = Question(
             "What is the capital of the United States?",
             """
-Washington, D.C.
-			""",
+Washington, D.C.""",
             false
         )
 
@@ -933,8 +838,7 @@ Washington, D.C.
             """
 New York (Harbor)
 Liberty Island
- [Also acceptable are New Jersey, near New York City, and on the Hudson (River).]
-			""",
+ [Also acceptable are New Jersey, near New York City, and on the Hudson (River).]""",
             false
         )
 
@@ -942,8 +846,7 @@ Liberty Island
             "Why does the flag have 13 stripes",
             """
 because there were 13 original colonies
-because the stripes represent the original colonies
-			""",
+because the stripes represent the original colonies""",
             false
         )
 
@@ -952,24 +855,21 @@ because the stripes represent the original colonies
             """
 because there is one star for each state
 because each star represents a state
-because there are 50 states
-			""",
+because there are 50 states""",
             false
         )
 
         val question703 = Question(
             "What is the name of the national anthem",
             """
-The Star-Spangled Banner
-			""",
+The Star-Spangled Banner""",
             false
         )
 
         val question708 = Question(
             "When do we celebrate Independence Day?",
             """
-July 4
-			""",
+July 4""",
             false
         )
 
@@ -985,8 +885,7 @@ Labor Day
 Columbus Day
 Veterans Day
 Thanksgiving
-Christmas
-			""",
+Christmas""",
             false
         )
 
