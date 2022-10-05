@@ -17,7 +17,8 @@ The app is functional enough for me to study for my interview in three days. Tha
     - [ ] Question field should be scrollable
 - [ ] Some of the questions don't have any answers set because they're state-specific
 - [x] Some of the questions don't have any answers set because they're time-specific (update for 2022)
-- [ ] App crashes after the last question
+- [x] App crashes after the last question
+- [x] Indexing is wrong: first question doesn't show up
 
 Stretch goals:
 

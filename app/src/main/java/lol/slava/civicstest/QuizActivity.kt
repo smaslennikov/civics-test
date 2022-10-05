@@ -61,9 +61,7 @@ class QuizActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     private fun newQuestion() {
-        position++
-
-        while (position <= questionList.size) {
+        while (position < questionList.size) {
             val question = questionList[position]
 
             if (!question.correct) {
@@ -78,10 +76,12 @@ class QuizActivity : AppCompatActivity(), View.OnClickListener {
 
         Toast.makeText(
             this,
-            "You have successfully completed the Quiz", Toast.LENGTH_SHORT
+            "All out of questions!", Toast.LENGTH_SHORT
         ).show()
+
         val intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
+        finish()
     }
 
     override fun onClick(v: View?) {
@@ -96,6 +96,7 @@ class QuizActivity : AppCompatActivity(), View.OnClickListener {
             }
 
             R.id.nextButton -> {
+                position++
                 newQuestion()
             }
         }
