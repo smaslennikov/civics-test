@@ -9,12 +9,13 @@ Simple app for running through the 2022 USCIS Civics Test. Features include:
 
 The app is functional enough for me to study for my interview in three days. That said, there are some bugs left:
 
-- [ ] Quiz Activity view issues
-    - [ ] Buttons don't shrink with the soft keyboard enabled
-    - [ ] Text input field has an extra line above
-    - [ ] Pressing enter in the text input field should submit the answer
-    - [ ] Question field should be using the screen space better (reduce button sizes)
-    - [ ] Question field should be scrollable
+- [x] Quiz Activity view issues
+    - [x] Buttons don't shrink with the soft keyboard enabled
+    - [x] Text input field has an extra line above
+    - [x] Pressing enter in the text input field should submit the answer
+    - [x] Question field should be using the screen space better (reduce button sizes)
+    - [x] Question field should be scrollable
+- [ ] Submitting an empty string is 'correct' - sounds like a feature to run quickly through questions you know the answers to, towards the end of studying
 - [ ] Some of the questions don't have any answers set because they're state-specific
 - [x] Some of the questions don't have any answers set because they're time-specific (update for 2022)
 - [x] App crashes after the last question

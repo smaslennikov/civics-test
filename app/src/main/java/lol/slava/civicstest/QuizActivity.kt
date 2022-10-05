@@ -4,6 +4,8 @@ import android.content.Intent
 import android.os.Bundle
 import android.text.method.ScrollingMovementMethod
 import android.view.View
+import android.view.inputmethod.EditorInfo
+import android.widget.TextView.OnEditorActionListener
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.gson.Gson
@@ -39,6 +41,14 @@ class QuizActivity : AppCompatActivity(), View.OnClickListener {
 
         binding.questionBox.movementMethod = ScrollingMovementMethod()
 
+        binding.answerBox.setOnEditorActionListener() { _, actionId, _ ->
+            if (actionId == EditorInfo.IME_ACTION_GO) {
+                submitAnswer()
+                return@setOnEditorActionListener true
+            }
+            false
+        }
+
         newQuestion()
 
         binding.submitButton.setOnClickListener(this)
@@ -49,7 +59,7 @@ class QuizActivity : AppCompatActivity(), View.OnClickListener {
         binding.questionBox.text =
             buildString {
                 append(questionList[position].correct.toString())
-                append(":")
+                append(":\n")
                 append(questionList[position].answers)
             }
     }
@@ -88,15 +98,19 @@ class QuizActivity : AppCompatActivity(), View.OnClickListener {
         finish()
     }
 
+    fun submitAnswer() {
+        questionList[position].correct = questionList[position].answers.contains(
+            binding.answerBox.text.toString(),
+            true
+        )
+        storeChanges()
+        showAnswer()
+    }
+
     override fun onClick(v: View?) {
         when (v?.id) {
             R.id.submitButton -> {
-                questionList[position].correct = questionList[position].answers.contains(
-                    binding.answerBox.text.toString(),
-                    true
-                )
-                storeChanges()
-                showAnswer()
+                submitAnswer()
             }
 
             R.id.nextButton -> {
