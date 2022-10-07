@@ -31,6 +31,7 @@ Stretch goals:
 - [ ] Automatically pull the USCIS PDF on startup and import it
 - [ ] Use localized answers for state-specific questions
 - [ ] Release a generic quizzing framework
+- [ ] Set the font size within the app
 
 ## Resources used
 
