@@ -1,11 +1,15 @@
 # Civics Test 2022 app
 
+The app is now [live!](https://play.google.com/store/apps/details?id=lol.slava.civicstest)
+
 Simple app for running through the 2022 USCIS Civics Test. Features include:
 
 - [x] Quiz questions with written answer prompts rather than multiple choice (real interview isn't multiple choice, but all apps seem to be)
 - [x] Go through the entire pool of questions
 - [x] Only ask missed questions after the first iteration
 - [x] Option to reset pool of known questions
+- [x] Marketed by [my cat](https://devopscat.com)
+- [x] Has a sweet cat logo
 
 The app is functional enough for me to study for my interview in three days. That said, there are some bugs left:
 
