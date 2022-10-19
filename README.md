@@ -1,3 +1,5 @@
+<img align="left" width="80" height="80" src="https://raw.githubusercontent.com/smaslennikov/civics-test/master/icon.png" alt="Civics Test 2022 app icon">
+
 # Civics Test 2022 app
 
 The app is now [live!](https://play.google.com/store/apps/details?id=lol.slava.civicstest)
